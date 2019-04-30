@@ -1,0 +1,93 @@
+.menu{
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	height: 75px;
+	grid-gap: 10px;
+	margin-right: 25px;
+}
+.track1{
+	grid-template-columns: 1fr 3fr;
+	display: grid;
+}
+h1{
+	color: white;
+	background-image: linear-gradient(to top, #55000f, #cb110c);
+	padding: 10px;
+}
+.track2{
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+}
+.track3{
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+}
+.track4{
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+}
+p{
+	text-align: left;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.left{
+text-align: left;
+margin-left: 10px;
+}
+.right{
+	text-align: right;
+	margin-right: 10px;
+}
+.showcase{
+	height: 700px;
+	border: black solid 2px;
+	margin-top: 10px;
+	grid-template-columns: 2fr 1fr 2fr;
+	display: grid;
+	background-image: linear-gradient(to top, #55000f, #cb110c);
+}
+.cistom{
+		margin-top: 10px;
+	border: 2px solid black;
+}
+a{
+	text-decoration: none;
+}
+li{
+	border: 2px #2761ff solid;
+	color: #2761ff;
+	padding: 20px;
+	list-style: none;
+	text-align: center;
+}
+li:hover{
+	background: white;
+	color: black;
+	border: 2px black solid;
+}
+.caption{
+	text-align: center;
+	font-size: 25px;
+	background: black;
+	color: white;
+	padding: 10px;
+		background-image: linear-gradient(to right, #f38b08, #f7971d);
+}
+p{
+	margin: 10px;
+}
+img{
+	margin-right: 5px;
+}
+.title{
+	grid-template-columns: 1fr 6fr;
+	display: grid;
+	grid-gap: 5px;
+}
+
+.footer{
+	margin-top: 250px;
+	border: 2px #2761ff solid;
+	height: 70px;
+}

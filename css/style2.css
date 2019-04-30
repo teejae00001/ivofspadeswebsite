@@ -1,0 +1,28 @@
+.header{
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	height: 100px;
+}
+img{
+	margin-left: 30px;
+	margin-top: 5px;
+}
+h1{
+	color: white;
+	background-image: linear-gradient(to top, #55000f, #cb110c);
+	padding: 10px;
+}
+p{
+	margin-left: 35px;
+	font-size: 20px;
+}
+
+.blaster{
+	height: 400px;
+}
+.badjao{
+	height: 400px;	
+}
+.zildijian{
+	height: 	
+}

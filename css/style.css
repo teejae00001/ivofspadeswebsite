@@ -1,0 +1,104 @@
+.header{
+	grid-template-columns: 1fr 5fr;
+	height: 50vh;
+	display: grid;
+	grid-gap: 10px;
+}
+.album{
+	background-image: url(../images/album.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+a {
+	text-decoration: none;
+}
+.menu{
+	padding: 0px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3,1fr);
+}
+.album-text{
+	color: white;
+	text-align: center;
+}
+li{
+	padding: 15px;
+	background-image: linear-gradient(to top, #55000f, #cb110c);
+	list-style: none;
+	text-align: center;
+	color: black;
+	font-size: 19px;
+	transition: all 0.2s ease-out;
+}
+li:hover{
+	background:#552221;
+	color: white;
+	transition: all 0.2s ease-out;
+}
+
+
+@keyframes slideshow {
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+}
+
+
+#slider{
+	overflow:hidden;
+	width:100%;
+	margin:5px auto; 
+	border: 5px solid transparent;
+	border-radius: 10px;
+}
+#slider figure img{
+	width:20%;
+	float:left;
+}
+#slider figure{
+	position:relative;
+	width:500%;
+	margin:0;
+	left:0;
+	text-align:left;
+	animation:20s slideshow infinite
+}
+
+@media screen and (max-width: 767px) 
+{#slider 
+{
+	overflow: hidden; width: 100%; margin: 0 auto;
+}
+}
+.founder{
+	height: 500px;
+	background-image: linear-gradient(to bottom, #55000f, #cb110c);
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-gap: 10px;
+}
+.text{
+	color: black;
+	margin-left: 20px;
+	text-align: center;
+}
+.pic{
+	background-image: url(../images/found.png);
+	background-position: center;
+	background-size: cover;
+}
+h1{
+	color: white;
+	margin-top: 180px;
+		margin-left: 10px;
+}
+p{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+	font-size: 20px;
+}
